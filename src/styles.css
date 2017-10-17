@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    display: flex;
+}
+article{
+    top: 10%;
+    left: 10%;
+    width: 90%;
+    position: absolute;
+    font-family: 'Geostar Fill', cursive;      
+}
+.contentSlide{
+    margin-left:30%;
+}
+.footerSlide{
+    margin-top: 30%;
+}
+h1{
+    font-size: 8vh;
+}
+h2{
+    font-size: 4vh;
+}
+h3{
+    font-size: 3vh;
+}
+p{
+    font-size: 2vh;
+}

@@ -1,0 +1,17 @@
+header{
+    background-color: #1b252f;
+    position: fixed;
+    height: 10%;
+}
+h1 { 
+    position: absolute; 
+    font-size:5vh;
+    color: white;
+    font-family: 'Geostar Fill', cursive;  
+    left: 5%;
+ }
+img{
+    width: 20%;
+    right: 0px;
+    margin-left: 80%;
+}
