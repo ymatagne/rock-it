@@ -14,5 +14,5 @@ script:
 
 after_success:
   - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
-  - docker build -t ymatagne/rocketisgone .
-  - docker push ymatagne/rocketisgone
+  - docker build -t ymatagne/rockit .
+  - docker push ymatagne/rockit
