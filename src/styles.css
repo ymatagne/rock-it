@@ -3,12 +3,18 @@ body{
     margin: 0;
     display: flex;
 }
-article{
+.container{
     top: 10%;
     left: 10%;
     width: 90%;
-    position: absolute;
+    overflow-y: scroll;
+    height: 100%;
+    position: fixed;
+    margin-top: 2%;    
+}
+article{
     font-family: 'Coustard', serif;
+    margin-bottom: 5%;
 }
 .contentSlide{
     margin-left:30%;
@@ -28,3 +34,5 @@ h3{
 p{
     font-size: 2vh;
 }
+@import "~bootstrap/dist/css/bootstrap.css"
+

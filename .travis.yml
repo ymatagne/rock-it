@@ -6,10 +6,13 @@ node_js:
 services:
   - docker
 before_script:
+  - npm install -g --silent firebase-tools 
   - npm install -g @angular/cli
   - npm install
 
 script:
+  - sed -i.back s/\<FIREBASE_API_KEY\>/$FIREBASE_API_KEY/g ./src/environments/environment.prod.ts
+  - sed -i.back s/\<FIREBASE_API_MESSAGE\>/$FIREBASE_API_MESSAGE/g ./src/environments/environment.prod.ts
   - $(npm bin)/ng build --prod --build-optimizer --aot
 
 after_success:

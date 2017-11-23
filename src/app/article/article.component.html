@@ -1,0 +1,11 @@
+<div class="container">
+
+  <article *ngIf="article">
+    <h2 class="title">{{article.title}}</h2>
+    <p class="date">{{article.date}} -
+      <a href="https://twitter.com/hashtag/{{article.twitter}}" class="twitter">#{{article.twitter}}</a>
+    </p>
+    <div [innerHTML]="article.desc| keepHtml">
+    </div>
+  </article>
+</div>
