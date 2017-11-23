@@ -6,7 +6,6 @@ node_js:
 services:
   - docker
 before_script:
-  - npm install -g --silent firebase-tools 
   - npm install -g @angular/cli
   - npm install
 
