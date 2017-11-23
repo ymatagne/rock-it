@@ -1,7 +1,7 @@
 export const environment = {
   production: true,
   firebase: {
-    apiKey: "",
+    apiKey: "<FIREBASE_API_KEY>",
     authDomain: "rockit-fb4ec.firebaseapp.com",
     databaseURL: "https://rockit-fb4ec.firebaseio.com",
     projectId: "rockit-fb4ec",
