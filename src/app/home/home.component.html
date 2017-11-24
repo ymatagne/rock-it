@@ -1,6 +1,4 @@
 <div class="container">
-  <input type="text" class="form-control" placeholder="Search article..." aria-label="Search article..." [(ngModel)]="search"
-    (ngModelChange)="filter(search)">
   <article *ngFor="let article of articles | async">
     <div *ngIf="article.display">
       <a class="title" (click)="openArticle(article.id)">{{article.title}}
